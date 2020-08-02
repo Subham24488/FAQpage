@@ -1,0 +1,59 @@
+.userView {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.userView__questionArea {
+  display: flex;
+  color: #444;
+  height: fit-content;
+  object-fit: contain;
+}
+.userView__button {
+  cursor: pointer;
+  display: flex;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  transition: background-color 0.9s ease;
+}
+.userView__button:hover:active {
+  background-color: rgb(195, 235, 241);
+}
+.userView__question {
+  background-color: inherit;
+}
+.userView__answerArea {
+  background-color: #eff8fe;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+.userView__answer {
+  padding: 18px;
+}
+.userView__answerPara {
+  position: relative;
+  right: 10px;
+}
+.userView__chevron {
+  transition: 0.9s;
+  margin-left: auto;
+  position: relative;
+  top: 15px;
+  background-color: inherit;
+}
+.userView__rotate {
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: 0.9s;
+  margin-left: auto;
+  position: relative;
+  top: 15px;
+  background-color: inherit;
+}

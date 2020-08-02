@@ -1,0 +1,41 @@
+.userInput {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.userInput__ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.userInput__list {
+  padding: 8px;
+}
+.userInput__input {
+  width: 80%;
+  border: none;
+  outline: none;
+  padding-bottom: 10px;
+}
+.userInput__inputDisplay {
+  padding-bottom: 15px;
+}
+.userInput__submitBtn {
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: #64b5f6;
+  background-color: #e0f0fd;
+  font-size: 25px;
+  margin-left: 50%;
+  cursor: pointer;
+}
+.userInput__form {
+  padding-left: 9px;
+}
+.userInput__delete {
+  cursor: pointer;
+}
